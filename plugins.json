@@ -2,11 +2,11 @@
     [
         "Font",
         "ttf   pfb   otf",
-        "C:\\Users\\ccdre_000\\OneDrive\\TODO\\build-Seer-Qt5_5_32-Release\\release\\plugins\\font\\fontpreview_py.exe -t \"A Quick Brown Fox Jumps Over The Lazy Dog 0123456789\""
+        "./plugins/font/fontpreview_py.exe -t \"A Quick Brown Fox Jumps Over The Lazy Dog 0123456789\""
     ],
     [
         "MSOffice",
         "doc docx rtf xls xlsx ppt pptx vsd vsdx",
-        "C:\\Users\\ccdre_000\\OneDrive\\TODO\\build-Seer-Qt5_5_32-Release\\release\\plugins\\MSOffice\\1syt.exe"
+        "./plugins/MSOffice/1syt.exe"
     ]
 ]
