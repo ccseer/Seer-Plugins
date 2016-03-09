@@ -27,14 +27,23 @@ The invocation of Seer is shown as below.
 
 **fontpreview.exe would render FILE.TTF to ABCabc123.png**
 
+######e.g.:
+
+> - fontpreview_py.exe -t "A Quick Brown Fox Jumps Over The Lazy Dog 0123456789"
+>
+> - nconvert.exe -out pdf -o *SEER_OUTPUT_PATH*.pdf *SEER_INPUT_PATH*
+>
+> - 1syt.exe
+>
+
+
+
 *Source Code*
 
 - fontpreview [Github](https://github.com/ccseer/Seer-plugins/blob/master/font/fontpreview_py.py)
 - MS-Office  [Github](https://github.com/ccseer/Seer-plugins/blob/master/ms-office/1syt.py)
 
 Contact: cc.seer@gmail.com
-
-
 
 
 
