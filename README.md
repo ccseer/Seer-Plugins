@@ -10,6 +10,20 @@
 
 #### How to write a plugin
 
+######Replace invocation 
+
+Seer will replace *SEER_OUTPUT_PATH\* with the triggered file, replace *SEER_INPUT_PATH\* with the output path. If  the plugin output file doesn't contain a suffix, you could append suffix to the *SEER_OUTPUT_PATH\*.
+
+*In practical use, it looks like this:*
+
+> nconvert.exe -out pdf -o \*SEER_OUTPUT_PATH\*.pdf \*SEER_INPUT_PATH\*
+
+
+
+
+
+######Normal invocation  
+
 Seer will add two strings after command line when invoking the plugin. 
 
 ``` 
@@ -30,9 +44,8 @@ The invocation of Seer is shown as below.
 *In practical use, it looks like these:*
 
 > - fontpreview_py.exe -t "A Quick Brown Fox Jumps Over The Lazy Dog 0123456789"
-> - nconvert.exe -out pdf -o \*SEER_OUTPUT_PATH\*.pdf \*SEER_INPUT_PATH\*
 > - 1syt.exe
-
+###### 
 
 
 
@@ -42,8 +55,6 @@ The invocation of Seer is shown as below.
 - MS-Office  [Github](https://github.com/ccseer/Seer-plugins/blob/master/ms-office/1syt.py)
 
 Contact: cc.seer@gmail.com
-
-
 
 
 
