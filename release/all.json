@@ -3,25 +3,25 @@
 		"MSOffice",
 		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
 		"Microsoft Office Document (Required \"Microsoft Office 2007\"  or above), it's slow",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
 	],
 	[
 		"AutoCAD",
 		"dwg dxf cadc",
 		"Autodesk Computer Aided Design (this plugin support over 200 image formats)",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
 	],
 	[
 		"Font",
 		"ttf pfb otf",
 		"TureType Outlines, PostScript Outlines",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/font.zip",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/font.zip"
 	],
 	[
 		"pandoc",
 		"docx odt epub",
 		"http://pandoc.org, docx-convetor is fast, does't require office app",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/pandoc.zip",
-	],
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/pandoc.zip"
+	]
 
 ]
