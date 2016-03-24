@@ -1,11 +1,5 @@
 [
 	[
-		"MSOffice",
-		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
-		"Created by Corey. Microsoft Office Document (Required \"Microsoft Office 2007\"  or above), it's slow",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
-	],
-	[
 		"AutoCAD",
 		"dwg dxf cadc",
 		"www.xnview.com. Autodesk Computer Aided Design (this plugin support over 200 image formats)",
@@ -28,6 +22,11 @@
 		"eps",
 		"http://ghostscript.com/index.html. Encapsulated Post Script",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/eps2png.zip"
-	]
-
+	],
+	[
+		"MSOffice",
+		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
+		"Created by Corey. Microsoft Office Document (Required \"Microsoft Office 2007\"  or above), it's slow",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
+	] 
 ]
