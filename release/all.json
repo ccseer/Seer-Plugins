@@ -1,32 +1,38 @@
 [
 	[
+		"Mask",
+		"here_goes_the_suffix_you_do_not_want_to_preview",
+		"Created by Corey. \nAll suffixes filled in this plugin, will display file property only.",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
+	],
+	[
 		"AutoCAD",
 		"dwg dxf cadc",
-		"www.xnview.com. Autodesk Computer Aided Design (this plugin support over 200 image formats)",
+		"<a href=\"www.xnview.com\">www.xnview.com</a> \nAutodesk Computer Aided Design (this plugin support over 200 image formats)",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
 	],
 	[
 		"Font",
 		"ttf pfb otf",
-		"Created by Corey. TureType Outlines, PostScript Outlines",
+		"Created by Corey.\nTureType Outlines. PostScript Outlines",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/font.zip"
 	],
 	[
 		"pandoc",
 		"docx odt epub",
-		"http://pandoc.org. docx-convetor is fast, does't require office app",
+		"<a href=\"http://pandoc.org\">http://pandoc.org</a>  \ndocx-convetor is fast, does't require office app",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/pandoc.zip"
 	],
 	[
 		"eps2png",
 		"eps",
-		"http://ghostscript.com/index.html. Encapsulated Post Script",
+		"<a href=\"http://ghostscript.com/index.html\">http://ghostscript.com/index.html</a> \nEncapsulated Post Script",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/eps2png.zip"
 	],
 	[
 		"MSOffice",
 		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
-		"Created by Corey. Microsoft Office Document (Required \"Microsoft Office 2007\"  or above), it's slow",
+		"Created by Corey. \nMicrosoft Office Document (Required \"Microsoft Office 2007\"  or above), it's slow",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
 	] 
 ]
