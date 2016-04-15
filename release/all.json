@@ -2,13 +2,13 @@
 	[
 		"Mask",
 		"here_goes_the_suffix_you_do_not_want_to_preview",
-		"Created by Corey. <br/>All suffixes filled in this plugin, will display file property only.",
+		"Created by Corey. <br/><b>All extention filled with this plugin will display file properties only.</b>",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Mask.zip"
 	],
 	[
 		"AutoCAD",
-		"dwg dxf cadc",
-		"<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design (this plugin support over 200 image formats)",
+		"dwg dxf cadc jpg",
+		"<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 200 image formats)</b>  <br/><font color=\"#FF0000\">For some jpg files Seer cannot view, use plugin_jpg.json to convert jpg to png.</font> ",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
 	],
 	[
@@ -20,7 +20,7 @@
 	[
 		"pandoc",
 		"docx odt epub",
-		"<a href=\"http://pandoc.org\">http://pandoc.org</a>  <br/>docx-convetor is fast, does't require office app",
+		"<a href=\"http://pandoc.org\">http://pandoc.org</a>  <br/>docx-convetor is fast, does't require MS office app",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/pandoc.zip"
 	],
 	[
@@ -32,7 +32,7 @@
 	[
 		"MSOffice",
 		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
-		"Created by Corey. <br/>Microsoft Office Document (Required \"Microsoft Office 2007\"  or above), it's slow",
+		"Created by Corey. <br/>Microsoft Office Document (Required \"Microsoft Office 2007\"  or above) <br/><b>It's slow</b>",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
 	] 
 ]
