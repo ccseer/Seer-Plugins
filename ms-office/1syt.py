@@ -82,11 +82,8 @@ def usage(execname):
 
 if __name__ == '__main__':
     import sys
-
-    execname = sys.argv[0]
-
     if len(sys.argv) != 3:
-        usage(execname)
+        usage(sys.argv[0])
 
     path_input = sys.argv[1]
     path_output = sys.argv[2].lower()
