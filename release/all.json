@@ -34,5 +34,11 @@
 		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
 		"Created by Corey. <br/>Microsoft Office Document (Required \"Microsoft Office 2007\"  or above) <br/><b>It's slow</b>",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
-	] 
+	],
+	[
+		"dll_lib_exports",
+		"lib dll",
+		"Created by Microsoft. <br/>Application extension.",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/dll_lib_exports.zip"
+	]  
 ]
