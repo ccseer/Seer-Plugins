@@ -40,5 +40,11 @@
 		"lib dll",
 		"Created by Microsoft. <br/>Application extension.",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/dll_lib_exports.zip"
+	]  ,
+	[
+		"exiftool",
+		"indd",
+		"<a href=\"http://www.sno.phy.queensu.ca/~phil/exiftool\">http://www.sno.phy.queensu.ca/~phil/exiftool</a> <br/>Adobe InDesign",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/InDesign.zip"
 	]  
 ]
