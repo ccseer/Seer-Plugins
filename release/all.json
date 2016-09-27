@@ -6,6 +6,12 @@
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Mask.zip"
 	],
 	[
+		"rename",
+		"here_goes_the_suffix_Seer_build-in",
+		"Created by Corey.<br/>This plugin simply copy the file to temp folder with a new extension(user-defined) which Seer supported internally. <br/>For example:<br/>		Seer has a build-in extension .ts which is a media type.And .ts is also a extension for TypeScript, a plaintext type. ​ In this situation, plugin can copy .ts file to temp folder with a .txt. So Seer can read .txt file. Furthermore, you can replace .txt with .js, so that Seer can read the file with a JS code highlight.",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/rename.zip"
+	],
+	[
 		"AutoCAD",
 		"dwg dxf cadc jpg",
 		"<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 200 image formats)</b>  <br/><font color=\"#FF0000\">For some jpg files Seer cannot view, use plugin_jpg.json to convert jpg to png.</font> ",
