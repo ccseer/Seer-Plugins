@@ -8,7 +8,7 @@
 	[
 		"rename",
 		"here_goes_the_suffix_Seer_build-in",
-		"Created by Corey.<br/>This plugin simply copy the file to temp folder with a new extension(user-defined) which Seer supported internally. <br/>For example:<br/>		Seer has a build-in extension .ts which is a media type.And .ts is also a extension for TypeScript, a plaintext type. ​ In this situation, plugin can copy .ts file to temp folder with a .txt. So Seer can read .txt file. Furthermore, you can replace .txt with .js, so that Seer can read the file with a JS code highlight.",
+		"Created by Corey.<br/>This plugin simply copy the file to temp folder with a new extension(user-defined) which Seer supported internally. <br/><br/>For example:<br/>Seer has a build-in extension TS which is a media type. And TS is also a extension for TypeScript, a plaintext type. <br/>In this situation, plugin can copy TS file to temp folder with a TXT extension, then Seer can treat the file as a TXT file. Furthermore, you can replace TXT with JS, so that Seer can read file with a JS code highlight.",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/rename.zip"
 	],
 	[
