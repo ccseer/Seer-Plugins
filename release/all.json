@@ -52,5 +52,11 @@
 		"indd",
 		"<a href=\"http://www.sno.phy.queensu.ca/~phil/exiftool\">http://www.sno.phy.queensu.ca/~phil/exiftool</a> <br/>Adobe InDesign",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/InDesign.zip"
+	]  ,
+	[
+		"code_highlight",
+		"cpp",
+		"Created by Corey.<br/><a href=\"http://highlightjs.org\">http://highlightjs.org</a> <br/>166 languages and 77 styles",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/code_highlight.zip"
 	]  
 ]
