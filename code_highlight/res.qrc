@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>highlight/highlight.pack.js</file>
+        <file>highlight/constant.html</file>
+        <file>highlight/styles/default.css</file>
+    </qresource>
+</RCC>
