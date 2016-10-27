@@ -50,7 +50,7 @@
 	[
 		"exr2png",
 		"exr",
-		"<a href=\"http://www.imagemagick.org\">http://www.imagemagick.org</a> <br/>OpenEXR",
+		"<a href=\"http://www.imagemagick.org\">http://www.imagemagick.org</a> <br/>OpenEXR. More image formats:<a href=\"http://www.imagemagick.org/script/formats.php\">http://www.imagemagick.org/script/formats.php</a>",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/ImageMagick.zip"
 	]  ,
 	[
