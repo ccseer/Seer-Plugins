@@ -48,6 +48,12 @@
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/dll_lib_exports.zip"
 	]  ,
 	[
+		"exr2png",
+		"exr",
+		"<a href=\"http://www.imagemagick.org\">http://www.imagemagick.org</a> <br/>OpenEXR",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/ImageMagick.zip"
+	]  ,
+	[
 		"exiftool",
 		"indd",
 		"<a href=\"http://www.sno.phy.queensu.ca/~phil/exiftool\">http://www.sno.phy.queensu.ca/~phil/exiftool</a> <br/>Adobe InDesign",
