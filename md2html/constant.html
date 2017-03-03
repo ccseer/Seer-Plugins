@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="md_style.css">
+  <script src="marked.js"></script>
+
+  <script type="text/javascript">
+    function load() {
+      var placeholder = document.getElementById('placeholder');
+      placeholder.innerHTML = marked(placeholder.innerHTML);
+    }
+  </script>
+</head>
+
+<body onload="load()">
+  <div id="placeholder">
+#Markdown_Pleaceholder#
+  </div>
+</body>
+</html>

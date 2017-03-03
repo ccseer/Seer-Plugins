@@ -64,5 +64,11 @@
 		"cpp",
 		"Created by Corey.<br/><a href=\"http://highlightjs.org\">http://highlightjs.org</a> <br/>166 languages and 77 styles",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/code_highlight.zip"
+	]   ,
+	[
+		"md2html",
+		"md",
+		"Created by Corey.<br/>Support more markdown syntax, powered by marked.js(<a href=\"https://github.com/chjj/marked\">https://github.com/chjj/marked</a>).",
+		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/md2html.zip"
 	]  
 ]
