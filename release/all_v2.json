@@ -74,7 +74,7 @@
 	[
 		"Tex2Html",
 		"tex",
-		"Created by Corey.<br/>It converts LaTex to HTML file.",
+		"Created by Corey.<br/>Highlight LaTex document",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Tex2HTML.zip"
 	]
 ]
