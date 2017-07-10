@@ -13,8 +13,8 @@
 	],
 	[
 		"AutoCAD",
-		"dwg dxf cadc jpg",
-		"<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 200 image formats)</b>  <br/><font color=\"#FF0000\">For some jpg files Seer cannot view, use plugin_jpg.json to convert jpg to png.</font> ",
+		"dwg dxf cadc",
+		"<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 200 image formats)</b>  <br/><font color=\"#FF0000\">http://www.xnview.com/en/nconvert/#formats</font> ",
 		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
 	],
 	[
