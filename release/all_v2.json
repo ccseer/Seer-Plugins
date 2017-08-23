@@ -1,80 +1,62 @@
 [
-	[
-		"Mask",
-		"here_goes_the_suffix_you_do_not_want_to_preview",
-		"Created by Corey. <br/><b>All extention filled with this plugin will display file properties only.</b>",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Mask.zip"
-	],
-	[
-		"rename",
-		"here_goes_the_suffix_Seer_build-in",
-		"Created by Corey.<br/>This plugin simply copy the file to temp folder with a new extension(user-defined) which Seer supported internally. <br/><br/>For example:<br/>Seer has a build-in extension TS which is a media type. And TS is also a extension for TypeScript, a plaintext type. <br/>In this situation, plugin can copy TS file to temp folder with a TXT extension, then Seer can treat the file as a TXT file. Furthermore, you can replace TXT with JS, so that Seer can read file with a JS code highlight.",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/rename.zip"
-	],
-	[
-		"AutoCAD",
-		"dwg dxf cadc",
-		"<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 500 image formats)</b>  <br/><font color=\"#2188ff\">http://www.xnview.com/en/nconvert/#formats</font> ",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
-	],
-	[
-		"Font",
-		"ttf pfb otf",
-		"Created by Corey.<br/>TureType Outlines. PostScript Outlines",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/font.zip"
-	],
-	[
-		"pandoc",
-		"docx odt epub",
-		"<a href=\"http://pandoc.org\">http://pandoc.org</a>  <br/>docx-convetor is fast, does't require MS office app",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/pandoc.zip"
-	],
-	[
-		"eps2png",
-		"eps",
-		"<a href=\"http://ghostscript.com/index.html\">http://ghostscript.com/index.html</a> <br/>Encapsulated Post Script",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/eps2png.zip"
-	],
-	[
-		"MSOffice",
-		"doc docx rtf xls xlsx ppt pptx vsd vsdx",
-		"Created by Corey. <br/>Microsoft Office Document (Required \"Microsoft Office 2007\"  or above) <br/><b>It's slow</b>",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
-	],
-	[
-		"dll_lib_exports",
-		"lib dll",
-		"Created by Microsoft. <br/>Application extension.",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/dll_lib_exports.zip"
-	],
-	[
-		"exr2png",
-		"exr",
-		"<a href=\"http://www.imagemagick.org\">http://www.imagemagick.org</a> <br/>OpenEXR.<br/> <br/> More image formats:<br/><a href=\"http://www.imagemagick.org/script/formats.php\">http://www.imagemagick.org/script/formats.php</a>",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/ImageMagick.zip"
-	],
-	[
-		"exiftool",
-		"indd",
-		"<a href=\"http://www.sno.phy.queensu.ca/~phil/exiftool\">http://www.sno.phy.queensu.ca/~phil/exiftool</a> <br/>Adobe InDesign",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/InDesign.zip"
-	],
-	[
-		"code_highlight",
-		"cpp",
-		"Created by Corey.<br/><a href=\"http://highlightjs.org\">http://highlightjs.org</a> <br/>166 languages and 77 styles",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/code_highlight.zip"
-	],
-	[
-		"md2html",
-		"md",
-		"Created by Corey.<br/>Support more markdown syntax, powered by marked.js(<a href=\"https://github.com/chjj/marked\">https://github.com/chjj/marked</a>).",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/md2html.zip"
-	],
-	[
-		"Tex2Html",
-		"tex",
-		"Created by Corey.<br/>Highlight LaTex document",
-		"https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Tex2HTML.zip"
-	]
+    [
+        "Mask",
+        "here_goes_the_suffix_you_do_not_want_to_preview",
+        "Created by Corey. <br/><b>All extention filled with this plugin will display file properties only.</b>",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Mask.zip"
+    ],
+    [
+        "rename",
+        "here_goes_the_suffix_Seer_build-in",
+        "Created by Corey.<br/>This plugin simply copy the file to temp folder with a new extension(user-defined) which Seer supported internally. <br/><br/>For example:<br/>Seer has a build-in extension TS which is a media type. And TS is also a extension for TypeScript, a plaintext type. <br/>In this situation, plugin can copy TS file to temp folder with a TXT extension, then Seer can treat the file as a TXT file. Furthermore, you can replace TXT with JS, so that Seer can read file with a JS code highlight.",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/rename.zip"
+    ],
+    [
+        "AutoCAD",
+        "dwg dxf cadc",
+        "<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 500 image formats)</b>  <br/><font color=\"#2188ff\">http://www.xnview.com/en/nconvert/#formats</font> ",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
+    ],
+    [
+        "Font",
+        "ttf pfb otf",
+        "Created by Corey.<br/>TureType Outlines. PostScript Outlines",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/font.zip"
+    ],
+    [
+        "pandoc",
+        "docx odt epub",
+        "<a href=\"http://pandoc.org\">http://pandoc.org</a>  <br/>docx-convetor is fast, does't require MS office app",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/pandoc.zip"
+    ],
+    [
+        "eps2png",
+        "eps",
+        "<a href=\"http://ghostscript.com/index.html\">http://ghostscript.com/index.html</a> <br/>Encapsulated Post Script",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/eps2png.zip"
+    ],
+    [
+        "MSOffice",
+        "doc docx rtf xls xlsx ppt pptx vsd vsdx",
+        "Created by Corey. <br/>Microsoft Office Document (Required \"Microsoft Office 2007\"  or above) <br/><b>It's slow</b>",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/MSOffice.zip"
+    ],
+    [
+        "dll_lib_exports",
+        "lib dll",
+        "Created by Microsoft. <br/>Application extension.",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/dll_lib_exports.zip"
+    ],
+    [
+        "exr2png",
+        "exr",
+        "<a href=\"http://www.imagemagick.org\">http://www.imagemagick.org</a> <br/>OpenEXR.<br/> <br/> More image formats:<br/><a href=\"http://www.imagemagick.org/script/formats.php\">http://www.imagemagick.org/script/formats.php</a>",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/ImageMagick.zip"
+    ],
+    [
+        "exiftool",
+        "indd",
+        "<a href=\"http://www.sno.phy.queensu.ca/~phil/exiftool\">http://www.sno.phy.queensu.ca/~phil/exiftool</a> <br/>Adobe InDesign",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/InDesign.zip"
+    ]
 ]
