@@ -13,7 +13,7 @@
     ],
     [
         "AutoCAD",
-        "dwg dxf cadc",
+        "dwg dxf cadc rw2",
         "<a href=\"http://www.xnview.com\">http://www.xnview.com</a> <br/>Autodesk Computer Aided Design <br/><br/><b>(This plugin support over 500 image formats)</b>  <br/><font color=\"#2188ff\">http://www.xnview.com/en/nconvert/#formats</font> ",
         "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/AutoCAD.zip"
     ],
