@@ -12,9 +12,15 @@
         "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/rename.zip"
     ],
     [
+        "excel2html",
+        "xls xlsx xlsm csv ods cvs csvz tsv tsvz",
+        "Created by Corey.<br/><a href=\"https://github.com/ccseer/Seer-plugins/tree/master/excel2html\">View source</a>",
+        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/excel2html.zip"
+    ],
+    [
         "3DViewer",
         "fbx gltf glb obj stl json 3ds",
-        "Created by AukNocheMik/Corey.<br/><a href=\"https://github.com/ccseer/Seer-3D-Viewer\">View source</a>",
+        "Created by AukNocheMik, Corey.<br/><a href=\"https://github.com/ccseer/Seer-3D-Viewer\">View source</a>",
         "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/3DViewer.zip"
     ],
     [
