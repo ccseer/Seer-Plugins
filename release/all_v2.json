@@ -1,11 +1,5 @@
 [
     [
-        "Mask",
-        "here_goes_the_suffix_you_do_not_want_to_preview",
-        "Created by Corey. <br/><b>All extensions filled with this plugin will display file properties only.</b>",
-        "https://raw.githubusercontent.com/ccseer/Seer-plugins/master/release/Mask.zip"
-    ],
-    [
         "rename",
         "here_goes_the_suffix_Seer_build-in",
         "Created by Corey.<br/>This plugin simply copies the file to temp folder with a new extension(user-defined) which Seer supported internally. <br/><br/>For example:<br/>Seer has a build-in extension TS which is a media type. At the same time, TS is also an extension for TypeScript, a plaintext type. <br/>In this case, the plugin copies TS file to temp folder with a TXT extension, then Seer treats the new file as a TXT. Furthermore, you can replace the extention TXT with JS so that Seer will read it with a JS code highlight.",
