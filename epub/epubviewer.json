@@ -3,5 +3,5 @@
     "suffix": [
         "epub"
     ],
-    "exec": "run.bat \"*SEER_INPUT_PATH*\" \"*SEER_OUTPUT_PATH*.html\""
+    "exec": "run.bat \"*SEER_INPUT_PATH*\" \"*SEER_OUTPUT_PATH*.html\" *SEER_OMIT_CACHE*"
 }

@@ -148,7 +148,7 @@
 
     <script>
         // Load the opf
-        var book = ePub("./@PLACEHOLDER_FILEPATH@");
+        var book = ePub("file:///@PLACEHOLDER_FILEPATH@");
         var rendition = book.renderTo("viewer", {
             flow: "scrolled-doc",
             width: '100%',
@@ -193,7 +193,7 @@
                     nextLabel = "next";
                 }
 
-                next.textContent = nextLabel + " »";
+                next.textContent = nextLabel + " >";
             } else {
                 next.textContent = "";
             }
@@ -207,7 +207,7 @@
                     prevLabel = "previous";
                 }
 
-                prev.textContent = "« " + prevLabel;
+                prev.textContent = "< " + prevLabel;
             } else {
                 prev.textContent = "";
             }
