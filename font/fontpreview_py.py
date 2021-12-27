@@ -98,7 +98,8 @@ def usage(execname):
 
 
 if __name__ == '__main__':
-    import sys, getopt
+    import sys
+    import getopt
 
     execname = sys.argv[0]
 
