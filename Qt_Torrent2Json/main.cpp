@@ -39,7 +39,6 @@ int main(int argc, char* argv[])
         return -1;
     }
 
-    QJsonObject root_obj;
     QFile f(arguments[1]);
     if (!f.open(f.ReadOnly)) {
         qDebug() << f.errorString();
@@ -53,6 +52,7 @@ int main(int argc, char* argv[])
         qDebug() << info.errorString();
         return -1;
     }
+    QJsonObject root_obj;
     root_obj["file"] = f.fileName();
     addStr(root_obj, "announceUrl", info.announceUrl());
     qDebug() << "announceList" << info.announceList();
