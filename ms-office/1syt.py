@@ -3,6 +3,10 @@ __author__ = 'corey'
 # contributors:
 # ustcltx -- #https://github.com/ustcltx
 
+# This code is only for demonstration currently,
+# please use OIT plugin for actual use.
+
+
 from win32com.client import DispatchEx
 
 w = ''
