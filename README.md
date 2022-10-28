@@ -1,4 +1,4 @@
-## There are three ways to write a plugin
+## How to write a plugin
 
 ### 1. Convert unknown type to known type
 
@@ -8,11 +8,13 @@
 "C:/ApkMetaInfo2Json/ApkMetaInfo2Json.exe" "*SEER_INPUT_PATH*" "*SEER_OUTPUT_PATH*.json"
 ```
 
-1. A file is triggered by **SPACE**
-2. Seer searches from plugin settings and finds that `apk` is defined as a plugin type
-3. Seer runs `ApkMetaInfo2Json.exe` with defined parameters
-   - In this case, `ApkMetaInfo2Json.exe` read contents from the triggered `apk` file, then write `json` file at Seer's temp folder
-4. When the `ApkMetaInfo2Json.exe` finishes and exits, Seer will go to the temporary directory to read the `json` file and display it.
+- process
+
+  1. A file is triggered by **SPACE**
+  2. Seer searches from plugin settings and finds that `apk` is defined as a plugin type
+  3. Seer runs `ApkMetaInfo2Json.exe` with defined parameters
+     - In this case, `ApkMetaInfo2Json.exe` read contents from the triggered `apk` file, then write a `json` file at `*SEER_OUTPUT_PATH*`
+  4. When the `ApkMetaInfo2Json.exe` finishes and exits, Seer will go to the temporary directory to read the `json` file and display it.
 
 - A plug-in can be any executable program
 
