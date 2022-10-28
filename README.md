@@ -5,7 +5,7 @@
 ##### Seer takes the first argument as the executor and then replaces the placeholders. `*SEER_INPUT_PATH*` is the absolute file path you just triggered. `*SEER_OUTPUT_PATH*` is the temp file path used to save converted file.
 
 ```batch
-"C:/ApkMetaInfo2Json/ApkMetaInfo2Json.exe" "\*SEER_INPUT_PATH\*" "\*SEER_OUTPUT_PATH\*.json"
+"C:/ApkMetaInfo2Json/ApkMetaInfo2Json.exe" "*SEER_INPUT_PATH*" "*SEER_OUTPUT_PATH*.json"
 ```
 
 1. A file is triggered by **SPACE**
@@ -21,7 +21,7 @@
   - python: [Font](https://github.com/ccseer/Seer-plugins/tree/master/font)
     - the command line should be something like this
       ```batch
-      `\"C:/path/to/your/python.exe\" your_python_script_file_path "\*SEER_INPUT_PATH\*" "\*SEER_OUTPUT_PATH\*`
+      \"C:/path/to/your/python.exe\" your_python_script_file_path "*SEER_INPUT_PATH*" "*SEER_OUTPUT_PATH*
       ```
   - any third-party program that provides conversion functionality
     - `dll_lib_exports`: this is extracted somewhere from Microsoft Windows
