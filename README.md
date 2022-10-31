@@ -1,6 +1,6 @@
 ## How to write a plugin
 
-### 1. Convert unknown type to known type
+### 1. Convert unknown type to built-in type
 
 ##### Seer takes the first argument as the executor and then replaces the placeholders. `*SEER_INPUT_PATH*` is the absolute file path you just triggered. `*SEER_OUTPUT_PATH*` is the temp file path used to save converted file.
 
