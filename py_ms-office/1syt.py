@@ -4,7 +4,7 @@ __author__ = 'corey'
 # ustcltx -- #https://github.com/ustcltx
 
 # This code is only for demonstration currently,
-# please use OIT plugin for actual use.
+# please use OIT plugin for practice.
 
 
 from win32com.client import DispatchEx
@@ -77,7 +77,7 @@ def main(path_in, path_out):
 
 def usage(execname):
     print()
-    print("MS_Office2PDF -- part of the Seer app: http://sourceforge.net/projects/ccseer")
+    print("MS_Office2PDF -- part of the Seer app: http://1218.io")
     print("----------------------------------------------------------")
     print("Usage: " + execname + " input output")
     print()
