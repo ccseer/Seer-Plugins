@@ -18,9 +18,9 @@
 
 - A plug-in can be any executable program
 
-  - a `CMD` script: [rename](https://github.com/ccseer/Seer-plugins/tree/master/rename)
-  - a `BAT` script: [epub](https://github.com/ccseer/Seer-plugins/tree/master/epub)
-  - python: [Font](https://github.com/ccseer/Seer-plugins/tree/master/font)
+  - a `CMD` script: [rename](https://github.com/ccseer/Seer-plugins/tree/master/cmd_rename)
+  - a `BAT` script: [epub](https://github.com/ccseer/Seer-plugins/tree/master/bat_epub)
+  - python: [Font](https://github.com/ccseer/Seer-plugins/tree/master/py_font)
     - the command line should be something like this
       ```batch
       \"C:/path/to/your/python.exe\" your_python_script_file_path "*SEER_INPUT_PATH*" "*SEER_OUTPUT_PATH*
