@@ -3,5 +3,5 @@
     "suffix": [
         "the_extension_you_wanna_rename"
     ],
-    "exec": "rename.cmd \"*SEER_INPUT_PATH*\" \"*SEER_OUTPUT_PATH*.js\""
+    "exec": "rename.cmd \"${input_file}\" \"${output_file}.js\""
 }
