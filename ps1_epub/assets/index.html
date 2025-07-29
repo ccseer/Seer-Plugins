@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="file:///PLACEHOLDER_ZIPJS"></script>
+    <script src="file:///PLACEHOLDER_EPUBJS"></script>
+    <link rel="stylesheet" href="file:///PLACEHOLDER_CSS" />
+</head>
+
+<body>
+    <div id="navigation">
+        <h1 id="title"></h1>
+        <image id="cover" width="150px" />
+        <h2 id="author"></h2>
+        <ul id="toc"></ul>
+    </div>
+    <div id="main">
+        <div id="viewer"></div>
+        <div id="pagination">
+            <a id="prev" href="#prev" class="arrow"></a>
+            <a id="next" href="#next" class="arrow"></a>
+        </div>
+    </div>
+
+    <script>
+        // Load the opf
+        var book = ePub("file:///PLACEHOLDER_INPUT");
+        var rendition = book.renderTo("viewer", {
+            flow: "scrolled-doc",
+            width: '100%',
+            height: '100%',
+            ignoreClass: "annotator-hl"
+        });
+        rendition.display();
+
+
+        var next = document.getElementById("next");
+        next.addEventListener("click", function (e) {
+            window.scrollTo(0, 0);
+            rendition.next();
+            e.preventDefault();
+        }, false);
+
+        var prev = document.getElementById("prev");
+        prev.addEventListener("click", function (e) {
+            window.scrollTo(0, 0);
+            rendition.prev();
+            e.preventDefault();
+        }, false);
+
+        rendition.on("rendered", function (section) {
+            var nextSection = section.next();
+            if (nextSection) {
+                nextNav = book.navigation.get(nextSection.href);
+
+                if (nextNav) {
+                    nextLabel = nextNav.label;
+                } else {
+                    nextLabel = "next";
+                }
+                next.textContent = nextLabel + " >";
+            } else {
+                next.textContent = "";
+            }
+
+            var prevSection = section.prev();
+            if (prevSection) {
+                prevNav = book.navigation.get(prevSection.href);
+
+                if (prevNav) {
+                    prevLabel = prevNav.label;
+                } else {
+                    prevLabel = "previous";
+                }
+                prev.textContent = "< " + prevLabel;
+            } else {
+                prev.textContent = "";
+            }
+        });
+
+        book.loaded.navigation.then(function (toc) {
+            var $nav = document.getElementById("toc"),
+                docfrag = document.createDocumentFragment();
+
+            toc.forEach(function (chapter, index) {
+                var item = document.createElement("li");
+                var link = document.createElement("a");
+                link.id = "chap-" + chapter.id;
+                link.textContent = chapter.label;
+                link.href = chapter.href;
+                item.appendChild(link);
+                docfrag.appendChild(item);
+
+                link.onclick = function () {
+                    var url = link.getAttribute("href");
+                    console.log(url)
+                    rendition.display(url);
+                    return false;
+                };
+
+            });
+
+            $nav.appendChild(docfrag);
+        });
+
+        book.loaded.metadata.then(function (meta) {
+            var $title = document.getElementById("title");
+            var $author = document.getElementById("author");
+            var $cover = document.getElementById("cover");
+            var $nav = document.getElementById('navigation');
+
+            $title.textContent = meta.title;
+            $author.textContent = meta.creator;
+            if (book.archive) {
+                book.archive.createUrl(book.cover)
+                    .then(function (url) {
+                        $cover.src = url;
+                    })
+            } else {
+                $cover.src = book.cover;
+            }
+
+            if ($nav.offsetHeight + 60 < window.innerHeight) {
+                $nav.classList.add("fixed");
+            }
+        });
+
+        document.addEventListener("keydown", function (e) {
+            // Left Key
+            if ((e.keyCode || e.which) == 37) {
+                rendition.prev();
+            }
+            // Right Key
+            if ((e.keyCode || e.which) == 39) {
+                rendition.next();
+            }
+        }, false);
+    </script>
+
+</body>
+
+</html>

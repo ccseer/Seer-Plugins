@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+#navigation {
+    width: 300px;
+    position: absolute;
+    overflow: auto;
+    top: 60px;
+    left: 1000px
+}
+
+#navigation.fixed {
+    position: fixed;
+}
+
+#navigation h1 {
+    width: 200px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#navigation h2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #B0B0B0;
+    margin-bottom: 20px;
+}
+
+#navigation ul {
+    padding-left: 18px;
+    margin-left: 0;
+}
+
+#navigation ul li {
+    list-style: decimal;
+    margin-bottom: 10px;
+    color: #cccddd;
+    font-size: 12px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#navigation ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+#navigation ul li a.active {
+    color: #000;
+}
+
+#viewer {
+    overflow: hidden;
+    width: 620px;
+    margin: 0 50px;
+    /*background: url('ajax-loader.gif') center center no-repeat;*/
+    background-color: white;
+    box-shadow: 0 0 4px #ccc;
+    margin: 20px;
+    padding: 40px 80px;
+}
+
+#main {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 800px;
+    z-index: 2;
+    transition: left .15s cubic-bezier(.55, 0, .2, .8) .08s;
+}
+
+#main.open {
+    left: 0;
+}
+
+#pagination {
+    text-align: center;
+    margin: 20px;
+    /*padding: 0 50px;*/
+}
+
+.arrow {
+    margin: 14px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.arrow:hover {
+    color: #777;
+}
+
+.arrow:active {
+    color: #000;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+#toc {
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 12pt;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    min-height: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #d9d9d9;
+}
+::-webkit-scrollbar-thumb:pressed {
+    background: #cccccc;
+}
+::-webkit-scrollbar-track:window-inactive,
+::-webkit-scrollbar-thumb:window-inactive,
+::-webkit-resizer,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-button {
+    display: none;
+}

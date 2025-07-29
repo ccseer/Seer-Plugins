@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <script src="file:///PLACEHOLDER_FOLDER/es5-shim.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/marked.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/purify.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/ansi_up.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/prism.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/katex.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/katex-auto-render.min.js"></script>
+    <script src="file:///PLACEHOLDER_FOLDER/notebook.min.js"></script>
+    <link rel="stylesheet" href="file:///PLACEHOLDER_FOLDER/katex.min.css" />
+    <link rel="stylesheet" href="file:///PLACEHOLDER_FOLDER/prism.css" />
+    <link rel="stylesheet" href="file:///PLACEHOLDER_FOLDER/notebook.css" />
+    <link rel="stylesheet" href="file:///PLACEHOLDER_FOLDER/nbpreview.css" />
+</head>
+</head>
+
+<body>
+    <div id="main">
+        <div id="notebook-holder"></div>
+    </div>
+</body>
+
+<script>
+    var ipynb_json = PLACEHOLDER_INPUT;
+    var notebook = nb.parse(ipynb_json);
+    var $holder = document.querySelector("#notebook-holder");
+    while ($holder.hasChildNodes()) {
+        $holder.removeChild($holder.lastChild);
+    }
+    $holder.appendChild(notebook.render());
+    Prism.highlightAll();
+</script>
+
+</html>

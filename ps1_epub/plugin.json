@@ -1,0 +1,21 @@
+{
+    "name": "epub",
+    "version": "1.0.1",
+    "type": "convert",
+    "roles": [
+        "viewer"
+    ],
+    "entry": "epub.ps1",
+    "args": [
+        "-i",
+        "${input_file}",
+        "-o",
+        "${output_file}.html"
+    ],
+    "formats": [
+        "epub"
+    ],
+    "appMinVersion": "4.1.3",
+    "author": "corey",
+    "releaseDate": "2025-07-24"
+}
