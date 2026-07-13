@@ -7,17 +7,15 @@ Resources and reference implementations for extending [Seer](https://1218.io/) w
 Replace the requirement placeholder below, then give the complete instruction to your coding agent:
 
 ```text
-Read and follow the Seer plugin development guide at https://raw.githubusercontent.com/ccseer/Seer-Plugins/refs/heads/master/plugin_development_guide.md. Treat it as the source of truth for choosing between Convert and DLL plugins, defining plugin.json, validating the implementation, and packaging the result.
+Read and follow the Seer plugin development guide at https://raw.githubusercontent.com/ccseer/Seer-Plugins/refs/heads/master/plugin_development_guide.md. Treat it as the source of truth for architecture, plugin.json, implementation, validation, and packaging. If the guide is unavailable, stop and report that before proceeding.
 
-Before doing any implementation work, inspect the Requirement section at the end of this instruction. If it is missing, blank, still contains placeholder text, or does not identify the target file format and desired preview behavior clearly enough to act on, ask exactly one clarifying question and wait for the answer. Do not infer a requirement, choose a plugin type, or create files until a concrete request is provided.
+Before doing any work, inspect the Requirement below. If it is missing, unchanged placeholder text, or too ambiguous to implement, ask one clarifying question and wait. Do not infer the missing requirement.
 
-Once the requirement is clear, implement a complete, installable Seer plugin for it. Work in the current workspace and create the plugin in a new, appropriately named directory. Do not modify Seer itself or stop at a plan or isolated code snippets.
+Once clear, choose Convert or DLL and briefly justify the choice, then implement a complete, installable plugin in the current workspace. Do not modify Seer itself or stop at a plan or code snippets.
 
-Before implementation, choose Convert or DLL and briefly justify the choice. Then create every required source, manifest, asset, sample, and documentation file. Validate plugin.json with a strict JSON parser, build or run the plugin against a representative sample, verify the generated preview or DLL build, and report the exact verification results. Also document packaging, local installation, external runtime requirements, and any dependency that must be installed separately.
+Follow every applicable validation step in the guide and report the actual results. Run an in-app Seer preview test when possible; otherwise explicitly state that runtime verification was not performed.
 
-If any essential context remains ambiguous after a concrete requirement is provided, ask one clarifying question before proceeding. Otherwise, continue until the plugin and its focused verification are complete.
-
-Requirement: [REPLACE THIS PLACEHOLDER with the file format, desired preview behavior, sample files or format specification, and any implementation constraints.]
+Requirement: [REPLACE THIS PLACEHOLDER with the plugin request.]
 ```
 
 ## Resources

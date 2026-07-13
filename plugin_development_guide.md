@@ -28,8 +28,8 @@ Convert plugins run an external executable or script via command line. The plugi
 > [!IMPORTANT]
 > **Script Execution and Runtimes:**
 > - Seer only adapts `.ps1` files to run automatically via PowerShell (`powershell.exe -NoProfile -ExecutionPolicy Bypass -File <script>`).
-> - For any other script formats (such as `.py`, `.js`, `.bat`, `.cmd`), Seer does not wrap them. They are launched directly via `QProcess::start(exe, args)`. 
-> - Therefore, other scripts **must be packaged as `.exe` files** (e.g., using PyInstaller or ncc) or run via a compiled launcher included in the plugin package. Do not expect Seer to invoke python.exe or node.exe directly.
+> - For any other script formats (such as `.py`, `.js`, `.bat`, `.cmd`), Seer does not select or wrap a system interpreter based on the file extension. The configured entry is launched directly via `QProcess::start(exe, args)`.
+> - Therefore, use a directly executable entry: package the converter as a standalone `.exe` (for example, with PyInstaller for Python), include a compiled launcher, or bundle the required runtime executable in the plugin directory and use it as `entry` while passing the script file through `args`.
 
 #### Command Line Placeholders:
 - `${input_file}`: The absolute path of the source file to preview.
@@ -68,7 +68,7 @@ Native C++/Qt dynamic link libraries (`.dll`) loaded directly by Seer using `QPl
 
 ## 📄 `plugin.json` Schema Specification
 
-Every Seer plugin must contain a `plugin.json` file in its root directory. Seer parses this file using strict JSON parsing (`QJsonDocument::fromJson`). 
+Every Seer plugin must contain a `plugin.json` file in its root directory. Seer parses this file using strict JSON parsing (`QJsonDocument::fromJson`).
 
 > [!WARNING]
 > **Strict JSON Compliance:**
@@ -140,6 +140,34 @@ Every Seer plugin must contain a `plugin.json` file in its root directory. Seer 
     "releaseDate": "2026-07-14"
 }
 ```
+
+---
+
+## 🤖 AI Agent Delivery Requirements
+
+When implementing a plugin from a user request, the AI Agent must:
+
+1. **Confirm the Requirement**:
+   - Do not start if the request is missing, still contains placeholder text, or lacks enough detail to identify the target format and desired preview behavior.
+   - Ask one clarifying question and wait instead of inventing the missing requirement.
+
+2. **Choose the Architecture**:
+   - Select Convert or DLL based on the format, preview behavior, performance needs, and available toolchain.
+   - State the choice and a brief technical reason before implementation.
+
+3. **Deliver the Complete Plugin**:
+   - Create the plugin in a new, appropriately named directory without modifying Seer itself.
+   - Include every required source file, `plugin.json`, asset, representative sample, plugin-level `README.md`, and build configuration.
+   - Do not stop at a plan, scaffold, or isolated code snippets.
+
+4. **Verify the Result**:
+   - Run every applicable check in the following validation checklist and report the exact commands and results.
+   - When a compatible Seer installation is available, install the plugin and complete an in-app preview smoke test with the representative sample.
+   - If Seer is unavailable, do not claim runtime verification. State explicitly that the in-app load and preview test remains outstanding.
+
+5. **Document Delivery Requirements**:
+   - Document local installation, catalog packaging when applicable, external runtime requirements, and dependencies that users must install separately.
+   - Distinguish verified behavior from unverified assumptions in the final report.
 
 ---
 
