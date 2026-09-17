@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "io.1218.seer.sha256-property",
+  "name": "SHA-256",
+  "description": "Computes the SHA-256 hash for the current file.",
+  "version": "1.0.0",
+  "appMinVersion": "4.5.10",
+  "backend": "process",
+  "capabilities": ["property"],
+  "extensions": ["${type_file}"],
+  "command": "sha256_property.exe",
+  "arguments": ["--input", "${input_file}", "--output", "${output_file}"],
+  "timeout_ms": 120000,
+  "success_exit_codes": [0]
+}
