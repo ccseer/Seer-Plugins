@@ -23,5 +23,7 @@ Requirement: [REPLACE THIS PLACEHOLDER with the plugin request.]
 - [Add a plugin to Seer](https://1218.io/docs/seer/add-plugin)
 - [Plugin development guide](./plugin_development_guide.md)
 - [Official plugin development documentation](https://1218.io/docs/seer/create-plugin)
+- [Seer Controls](https://github.com/ccseer/Seer-Controls)
+- [Seer Properties](https://github.com/ccseer/Seer-Properties)
 - [Seer SDK](https://github.com/ccseer/Seer-sdk)
 - [Existing plugin examples](https://github.com/stars/ccseer/lists/plugins)
