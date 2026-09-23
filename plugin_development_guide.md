@@ -9,6 +9,8 @@ This guide is designed to instruct AI Agents on how to develop and write custom 
 - **Official Plugin Development Docs**: [https://1218.io/docs/seer/create-plugin.html](https://1218.io/docs/seer/create-plugin.html)
 - **Existing Plugins List (for reference)**: [https://github.com/stars/ccseer/lists/plugins](https://github.com/stars/ccseer/lists/plugins)
 - **Seer SDK Repository**: [https://github.com/ccseer/Seer-sdk](https://github.com/ccseer/Seer-sdk)
+- **Control Plugins Repository**: [https://github.com/ccseer/Seer-Controls](https://github.com/ccseer/Seer-Controls)
+- **Property Plugins Repository**: [https://github.com/ccseer/Seer-Properties](https://github.com/ccseer/Seer-Properties)
 
 ---
 
