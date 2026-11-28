@@ -4,25 +4,23 @@ Resources and reference implementations for extending [Seer](https://1218.io/) w
 
 ## Build a Plugin with an AI Agent
 
-Replace the requirement placeholder below, then give the complete instruction to your coding agent:
+The [Plugin Development](https://1218.io/docs/seer/create-plugin.html#viewers) page on the documentation site carries the prompt to give your coding agent. It points at [Viewer_Plugin_PROMPT.md](https://github.com/ccseer/Seer-sdk/blob/main/Viewer_Plugin_PROMPT.md), the development guide for both Convert and DLL (SDK v3) plugins.
 
-```text
-Read and follow the Seer plugin development guide at https://raw.githubusercontent.com/ccseer/Seer-Plugins/refs/heads/master/plugin_development_guide.md. Treat it as the source of truth for architecture, plugin.json, implementation, validation, and packaging. If the guide is unavailable, stop and report that before proceeding.
+## Samples
 
-Before doing any work, inspect the Requirement below. If it is missing, unchanged placeholder text, or too ambiguous to implement, ask one clarifying question and wait. Do not infer the missing requirement.
+This repository keeps the original Convert plugin samples. They predate the current guide and use heterogeneous manifests, so treat them as working examples rather than templates:
 
-Once clear, choose Convert or DLL and briefly justify the choice, then implement a complete, installable plugin in the current workspace. Do not modify Seer itself or stop at a plan or code snippets.
+- `ps1_ipynb/`, `ps1_epub/` — PowerShell-driven converters.
+- `bat_epub/`, `cmd_rename/` — batch and command-script converters.
+- `Qt_ApkMetaInfo2Json/`, `Qt_Torrent2Json/` — C++/Qt converters producing JSON.
 
-Follow every applicable validation step in the guide and report the actual results. Run an in-app Seer preview test when possible; otherwise explicitly state that runtime verification was not performed.
-
-Requirement: [REPLACE THIS PLACEHOLDER with the plugin request.]
-```
+For current DLL (SDK v3) plugins, see the reference projects listed on the [documentation page](https://1218.io/docs/seer/create-plugin.html#viewers).
 
 ## Resources
 
-- [Add a plugin to Seer](https://1218.io/docs/seer/add-plugin)
-- [Plugin development guide](./plugin_development_guide.md)
-- [Official plugin development documentation](https://1218.io/docs/seer/create-plugin)
+- [Add a plugin to Seer](https://1218.io/docs/seer/add-plugin.html)
+- [Viewer plugin development guide](https://github.com/ccseer/Seer-sdk/blob/main/Viewer_Plugin_PROMPT.md)
+- [Official plugin development documentation](https://1218.io/docs/seer/create-plugin.html)
 - [Seer Controls](https://github.com/ccseer/Seer-Controls)
 - [Seer Properties](https://github.com/ccseer/Seer-Properties)
 - [Seer SDK](https://github.com/ccseer/Seer-sdk)

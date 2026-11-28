@@ -51,7 +51,7 @@ A concise summary of what this plugin does (shown in the download catalog):
 ### ✅ Checklist
 
 - [ ] Tested on the latest version of Seer
-- [ ] Valid `plugin.json` structure following the [Plugin Development Guide](https://github.com/ccseer/Seer-Plugins/blob/master/plugin_development_guide.md)
+- [ ] Valid `plugin.json` structure following the [Plugin Development Guide](https://1218.io/docs/seer/create-plugin.html)
 - [ ] Safe and open-source: free of malware, spyware, or unauthorized data collection
 - [ ] Includes an open-source license
 - [ ] I understand that community plugins are listed under third-party disclaimers, and authors are responsible for maintaining their own plugins
